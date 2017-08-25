@@ -30,6 +30,14 @@ input, textarea{
 	width:auto;
 }
 
+a{
+	text-decoration: none;
+	color:#cccccc;
+	display: inline-block;
+}
+
+
+
 .headline{
 	background-color:  #ffffff;
 	border: 1px dotted #cccccc;
