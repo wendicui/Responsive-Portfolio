@@ -281,6 +281,7 @@ p{
 	
 	.headline{
 		width: 100%;
+		margin-top:0;
 	}
 	.myname{
 		margin-left:2%;
@@ -338,11 +339,11 @@ p{
 	
 	.headline{
 		width: 100%;
+		position:static;
+		height:auto;
 	}
 
-	.myname{
-		margin-left:2%;
-	}
+	
 	.left {
 		width: 92%;
 		margin-left:2%;
@@ -359,10 +360,14 @@ p{
 	}
 
 
-	#about{
-		margin-left: 40%;
+	#about, #portfolio, #contact{
+		
+		border: none;
+		padding:5%;
+	
 	}
 
+	
 	.box1, .box2, .box3, .box4, .box5 {
 		width:100%;
 		height:auto;
@@ -396,7 +401,17 @@ p{
 		width:100%;
 		text-align: center;
 		margin:0;
+		padding: 5%,0;
 	}
 
-	.
+	.section{
+		overflow: hidden;
+		
+	}
+	.one, .two , .three{
+		width:33%;
+		text-align: center;
+		display:inline-block;
+
+	}
 }
