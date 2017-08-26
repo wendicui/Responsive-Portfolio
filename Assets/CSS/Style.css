@@ -26,17 +26,14 @@ input, textarea{
 	width:100%;
 }
 
-#submit{
-	width:auto;
-}
-
 a{
 	text-decoration: none;
 	color:#cccccc;
-	display: inline-block;
 }
 
-
+#submit{
+	width:auto;
+}
 
 .headline{
 	background-color:  #ffffff;
@@ -63,8 +60,18 @@ a{
 	margin:5px;
 	color:#cccccc;
 	padding:0 1%;
-	display:inline-block;
+	float:right ;
 	
+}
+
+.one, .two, .three{
+	display:inline-block;
+}
+
+.navi{
+	float:right;
+	margin-right: 2%;
+	margin-top: 1%;
 }
 
 .form {
@@ -142,12 +149,12 @@ a{
 
 #about{
 	
-	margin-left: 40%;
-	border-right: 1px solid #cccccc;
+	
+	
 	
 }
 #contact{
- border-left: 1px solid #cccccc;
+ 
 }
 
 #portfolio{
@@ -421,5 +428,15 @@ p{
 		text-align: center;
 		display:inline-block;
 
+	}
+
+	.navi{
+		float:none;
+		margin:0;
+	}
+
+	.navig{
+		margin:0,auto;
+		float:none;
 	}
 }
